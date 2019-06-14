@@ -1,0 +1,161 @@
+.main_offer{
+	width: 90%;
+	margin: 0 auto;
+	height: 375px;
+	padding: 5px;
+	background-color: #ccc;
+	background-image: url(../img/background/offer.jpg);
+	background-size: cover;
+
+}
+.nav_bar{
+		display: block;
+		width: 90%;
+		height: 140px;
+		margin: 0 auto;
+}
+
+.nav_img img{
+	width: 70px;
+	height: 70px;
+	float: left;
+}.nav_img h2{
+	display: inline-block;
+	font-family: 'Lobster', cursive;
+	margin: 0px;
+	margin-left: 20px;
+	font-weight: normal;
+	padding: 0px;
+	font-size: 50px;
+}
+.nav_item {
+	height: 70px;
+	float: left;	
+	display: inline-block;
+}
+
+.nav_item li{
+	display: inline-block;
+	float: left;
+}
+.nav_items{
+	display: inline-block;
+	padding: 10px 20px;
+	float: left;
+	text-decoration: none;
+	color: #333;
+}
+.nav_form{
+	display: inline-block;
+}
+.nav_form li {
+	padding: 10px 20px;
+	background-color: #ccc;
+	border-radius: 25px;
+	float: right;
+}
+.nav_form a{
+	text-decoration: none;
+	color: #222;
+}
+footer{
+	height: 350px;
+	width: 90%;
+	margin: 0 auto;
+	background-color:#283747;
+	padding: 5px;	
+}
+footer row{
+	width: 100%;
+	margin: 0 auto;
+	background-color:#283747;
+}
+footer .footer_col{
+	padding: 5px;
+	float: left;
+	width: 32.5%;
+}
+footer .footer_col h3{
+	color: #fff;
+	text-align: center;
+	font-family: 'Yellowtail', cursive;
+	font-weight: normal;
+	font-size: 25px;
+}footer .footer_col .footer_ol{
+	color: #fff;
+	font-family: 'Aclonica', cursive;
+	font-weight: normal;
+	font-size: 18px;
+}footer .footer_col .footer_ol a{
+	color: #fff;
+	font-family: 'Aclonica', cursive;
+	font-weight: normal;
+	font-size: 18px;
+	text-decoration: none;
+}
+footer .footer_col .form_control{
+	width: 100%;
+	height: 30px;
+	border-radius: 4px;
+	border:0px;
+	margin-bottom: 3px;
+	padding: 3px 0px;
+	padding-left: 6px;
+	color: #333;
+	background-color: #ddd;
+}
+.btn{
+	padding-right: 16px;
+}
+.testimonial{
+	width: 80%;
+	height: 200px;
+	padding: 5px;
+	margin: 0 auto;
+}
+.testimonial .feedback{
+	width: 31%;
+	float: left;
+	margin: 6px;
+	border-radius: 8px;
+	box-shadow: 10px 10px 20px #bbb;
+	background-color: #333;
+	background-image: url(../img/common_img/test_bg.jpg);
+	background-size: cover;
+	padding: 5px;
+}
+
+.testimonial .feedback_photo{
+	width: 31%;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	margin: 6px;
+	background-color: pink;
+	padding: 5px;
+}
+
+.testimonial .feedback_dec h3{
+	text-align: center;
+	color: #444;
+	font-weight: bold;
+	line-height: 2px;
+}
+.testimonial .feedback_dec h4{
+	text-align: center;
+	color: #999;
+	font-weight: bold;
+	line-height: 2px;
+}
+.testimonial .feedback_dec p{
+	text-align: center;
+	color: #444;
+}
+
+
+.main_container{
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px;
+	height: 50px;
+}

@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.main
+{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  background-image: url("../img/backgroundimg/image1.jpg");
+  background-size: cover;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.book
+{
+
+  width:30%;
+  height:50%;
+  display: flex;
+  flex-direction: row;
+}
+.img
+{
+  display: flex;
+  flex-direction: row;
+}
+.form
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width:100%;
+  background-color: rgba(116,120,121,0.34);
+}
+input,select
+{
+  outline:none;
+  border-bottom: 0.3vh solid white;
+  background-color: rgba(116,120,121,0.34);;
+  border-radius: 2vh;
+  margin-top: 1vh;
+  width: 80%;
+  height: 10%;
+}
+::placeholder
+{
+
+  color:black;
+}

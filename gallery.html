@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    
+    <style media="screen">
+      *{
+        box-sizing: border-box;
+      }
+      body{
+        display: flex;
+        flex-direction: column
+        min-height: 10vh;
+        min-width: 20vw;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background:#D1F2EB;
+      }
+      .menu{
+        display: flex;
+        background: red;
+        flex: 1;
+        border: 2px solid black;
+        margin: 1px;
+        height: 10vh;
+        width: 100%;
+
+      }
+      .slider{
+        display: flex;
+        background: blue;
+        flex: 2;
+        border: 2px solid black;
+        margin: 1px;
+        height: 40vh;
+        width: 100%;
+
+      }
+
+      .col {
+        display: flex;
+        flex-direction: row;
+        background:#E5E7E9;
+        width: 100%;
+        border-shadow:1 5px 100px black;
+
+      }
+      nav {
+        display: flex;
+        flex-direction: column;
+      }
+
+      section {
+
+        flex: 1;
+        background:white;
+        border-shadow:0 5px 100px black;
+        margin: 35px;
+        height: 25vh;
+      }
+
+      header, footer {
+        flex: 1;
+        background: yellowgreen;
+        height: 10vh;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        box-shadow:0 3px 20px black;
+      }
+      .foot{
+        width: 100%;
+        height: 40vh;
+      }
+      .col1 {
+        display: flex;
+        flex-direction: row;
+
+      }
+      .row {
+        width: 90%;
+        margin: 30px;
+
+
+      }
+      .foot {
+        background: orangered;
+        color:white;
+        font-size: 35px;
+        padding:
+        font-family:
+      }
+      .moto {
+        padding: 0.2em;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        HEADER
+      </header>
+      <nav>
+
+
+      <section class="menu">
+        Menu
+      </section>
+
+
+      <section class="slider">
+        image slide
+      </section>
+    </nav>
+    <center><h1><u>Gallery</u></h1></center>
+    <div class="col">
+    <section> <img src="/home/pif/Desktop/HTML/Images/gallery1.jpg">
+    </section>
+    <section> <img src="/home/pif/Desktop/HTML/Images/gallery2.jpg">
+    </section>
+    <section><img src="/home/pif/Desktop/HTML/Images/gallery5.jpg">
+    </section>
+
+
+    </div>
+    <div class="col">
+    <section><img src="/home/pif/Desktop/HTML/Images/gallery7.jpeg" style="box-shadow:0 3px 20px black;">
+    </section>
+    <section><img src="/home/pif/Desktop/HTML/Images/gallery8.jpg" >
+    </section>
+    <section><img src="/home/pif/Desktop/HTML/Images/gallery9.jpg">
+    </section>
+
+    </div>
+    <div class="col">
+    <section><img src="/home/pif/Desktop/HTML/Images/gallery11.jpg">
+    </section>
+    <section><img src="/home/pif/Desktop/HTML/Images/gallery12.jpg">
+    </section>
+    <section><img src="/home/pif/Desktop/HTML/Images/gallery13.jpg">
+    </section>
+
+    </div>
+
+
+
+    <div class="col1">
+      <div class="row">
+    <section class="foot"><img src="/home/pif/Desktop/HTML/Images/Foot.jpg">
+    </section>
+
+  <section class="foot">
+  	<div class="moto">
+  		<center><h4>Eat Healthy and delicious Food from our hotel</h4>
+  		<p class="mt-3">Call us to book your Table today or to order your Food</p>
+  		<h3>+91 123 456 789</h3></center>
+  	</div>
+  </section>
+  </div>
+  </div>
+    <footer>FOOTER</footer>
+  </div>
+  </body>
+</html>
